@@ -1,5 +1,5 @@
 
-class Books{
+class Book{
   static int totalBooks=3;
 
   String title;
@@ -7,7 +7,7 @@ class Books{
   int publicationYear;
   int pagesRead = 0;
 
-  Books(this.title,this.author,this.publicationYear);
+  Book(this.title,this.author,this.publicationYear);
 
   void read(int page){
     pagesRead += page;
