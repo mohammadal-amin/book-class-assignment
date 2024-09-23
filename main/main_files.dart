@@ -1,9 +1,9 @@
 import 'book_files.dart';
 void main(){
 
-  final book1 = Books("Business Management And Organisation","M.C. SHUKLA", 1952);
-  final book2 = Books("Business Mathematics","V.K. KAPOOR",1976);
-  final book3 = Books("Accounting Principles", "DONALD E. KIESO", 1808);
+  final book1 = Book("Business Management And Organisation","M.C. SHUKLA", 1952);
+  final book2 = Book("Business Mathematics","V.K. KAPOOR",1976);
+  final book3 = Book("Accounting Principles", "DONALD E. KIESO", 1808);
 
   book1.read(878);
   book2.read(857);
@@ -33,5 +33,5 @@ void main(){
   print("Pages Read: ${book3.getPagesRead()}");
   print("Age: ${book3.getBookAge()}");
 
-  print("Total Books Created: ${Books.totalBooks}");
+  print("Total Books Created: ${Book.totalBooks}");
 }
